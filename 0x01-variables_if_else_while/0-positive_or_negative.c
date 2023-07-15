@@ -17,15 +17,15 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-		printf("%dispositive\n", n);
+		printf("%d\ is\ positive\n", n);
 	}
 	else if (n == 0)
 	{
-		printf("%diszero\n", n);   
+		printf("%d\ is\ zero\n", n);
 	}
 	else
 	{
-		printf("%disnegative\n", n);
+		printf("%d\ is\ negative\n", n);
 	}
 	return (0);
 }
