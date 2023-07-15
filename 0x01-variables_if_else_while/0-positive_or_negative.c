@@ -6,7 +6,6 @@
  * main - Entry point
  *
  *Description: "false or true validation"
- *
  * Return : Always 0 (Success)
 */
 
@@ -22,7 +21,7 @@ int main(void)
 	}
 	else if (n == 0)
 	{
-		printf("%d is positive\n", n);
+		printf("%d is zero\n", n);
 	}
 	else
 	{
