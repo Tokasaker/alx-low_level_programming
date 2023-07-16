@@ -5,9 +5,9 @@
 /**
  * main - Entry point
  *
- * Description: "false or true validation"
+ * Description: "checking the value of n "
  *
- * Return : Always 0 (Success)
+ * Return: Always 0 (Success)
 */
 
 int main(void)
