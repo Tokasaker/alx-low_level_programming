@@ -1,10 +1,8 @@
-#include <stdio.h> 
-
+#include <stdio.h>
 /**
  * main - Entry point
  *
- * Description: A C that prints with put function 
- *
+ * Description: A C that prints with put function
  * Return: Always 0 (Success)
 */
 
