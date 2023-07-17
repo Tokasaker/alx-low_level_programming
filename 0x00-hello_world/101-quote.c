@@ -10,8 +10,8 @@
 
 int main(void)
 {
-	putchar("and that piece of art is useful - Dora Korpar, 2015-10-19");
-	putchar("\n");
+	char q = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 
+	write(1, q, 59);
 	return (1);
 }
