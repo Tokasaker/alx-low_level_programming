@@ -2,7 +2,7 @@
 
 /**
  *
- * prints_alphapet - in lowercase from a to z 
+ * prints_alphapet - in lowercase from a to z
  *
 */
 void print_alphabet(void)
