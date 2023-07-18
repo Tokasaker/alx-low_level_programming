@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: prints alphapet in lowercase
+ * Description: "prints alphapet in lowercase"
  *
  * Return: Always 0 (Success)
 */
