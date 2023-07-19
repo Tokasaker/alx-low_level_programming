@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * print_alphabet_x10 - function to check if caharcter is lowercase
  *
- * Description: prints alphabet 10 times in lowercase
+ * Description: print alphabet fro a to z
  *
  * Return: Always 0 (Success)
 */

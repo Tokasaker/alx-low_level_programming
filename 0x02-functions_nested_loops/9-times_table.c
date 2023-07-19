@@ -18,7 +18,7 @@ void times_table(void)
 		for (time = 0; time <= 0; time++)
 		{
 			_putchar(',');
-			_putchar(',');
+			_putchar(' ');
 
 			prod = table * time;
 
