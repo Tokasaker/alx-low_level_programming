@@ -22,8 +22,8 @@ void print_times_table(int n)
 				_putchar(',');
 				_putchar(' ');
 
-				prod = table * time			
-				
+				prod = table * time;
+
 				if (prod <= 9)
 				       _putchar(' ');
 				if (prod <= 99)
@@ -37,7 +37,7 @@ void print_times_table(int n)
 					_putchar((prod / 10) + 48);
 				_putchar((prod % 10) + 48);
 			}
-			_putchar(('\n');
+			_putchar('\n');
 		}
 	}
 }
