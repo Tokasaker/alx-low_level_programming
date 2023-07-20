@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * print_numbers - check the code
  * 		only using _putchar twice
