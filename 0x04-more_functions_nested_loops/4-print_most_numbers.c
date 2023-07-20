@@ -2,7 +2,7 @@
 
 /**
  * print_most_numbers - check the code
- *
+ *			only using _putchar twice
  * Return: Always 0.
  */
 
