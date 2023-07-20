@@ -2,7 +2,8 @@
 
 /**
  * print_most_numbers - check the code
- *			only using _putchar twice
+ *		from 2 and 4 and you can
+ *		only using _putchar twice
  * Return: Always 0.
  */
 
