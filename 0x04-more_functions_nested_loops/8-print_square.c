@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_square - print a square
+ *print_square - print a square using the character #
  *
- * @size: is size of square
+ *@size: is size of square
  *
- * Return: Always 0.
+ *Return: Always 0 (Success).
  */
 
 void print_square(int size)
@@ -21,6 +21,5 @@ if (size <= 0)
 			_putchar('#');
 		_putchar('\n');
 	}
-}
 }
 
