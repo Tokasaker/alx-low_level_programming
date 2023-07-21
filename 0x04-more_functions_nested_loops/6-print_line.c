@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_line - check the code
+ * print_line - draws a straghit line
  *
- * @n: input for line _
+ * @n: input to print character _
  *
- * Return: Always 0.
+ * Return: Always 0 (Success).
  */
 
 void print_line(int n)
