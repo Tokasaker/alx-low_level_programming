@@ -13,7 +13,9 @@ void print_triangle(int size)
 	int row, space;
 
 	if (size <= 0)
+	{
 		_putchar('\n');
+	}
 	else
 	{
 		for (row = 0; row < size; row++)
