@@ -4,7 +4,6 @@
 /**
  * islower - contact two strings
  *              using putchar
- *
  * @c: f string
  *
  * Return: Always 0.
@@ -53,7 +52,7 @@ char *cap_string(char *s)
 
 	while (*s)
 	{
-		if (isdelimiter(*str))
+		if (isdelimiter(*s))
 			foundDelimit = 1;
 		else if (islower(*s) && foundDelimit)
 		{
