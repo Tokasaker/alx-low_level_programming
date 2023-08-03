@@ -9,7 +9,7 @@
  * Return: Always 0.
  */
 
-checkpr(int n, int on);
+int checkpr(int n, int on);
 int is_prime_number(int n)
 {
 	return (checkpr(n, 2));
