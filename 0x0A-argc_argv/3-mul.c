@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - print program name
@@ -13,7 +14,7 @@ int main(int argc, int atoi(char *argv[]))
 
 	if (argc == 3)
 	{
-		z = argv[1] * argv[2];
+		z = atoi(argv[1]) * atoi(argv[2]);
 		printf("%d\n", z);
 	}
 	else
