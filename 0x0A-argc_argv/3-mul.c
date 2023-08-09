@@ -4,7 +4,7 @@
  * main - print program name
  * @argv: lis
  * @argc: int
- * Return: 0
+ * Return: 0-success, non-zero-faili
  */
 
 int main(int argc, char const **argv)
@@ -14,7 +14,7 @@ int main(int argc, char const **argv)
 	if (argc == 3)
 	{
 		z = atoi(argv[1]) * atoi(argv[2]);
-		printf("%d\n", z)
+		printf("%d\n", z);
 	}
 	else
 	{
