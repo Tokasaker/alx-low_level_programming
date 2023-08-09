@@ -7,13 +7,13 @@
  * Return: 0-success, non-zero-faili
  */
 
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
 	int z;
 
 	if (argc == 3)
 	{
-		z = atoi(argv[1]) * atoi(argv[2]);
+		z = argv[1] * argv[2];
 		printf("%d\n", z);
 	}
 	else
