@@ -7,7 +7,7 @@
  * Return: 0-success, non-zero-faili
  */
 
-int main(int argc, char const **argv)
+int main(int argc, char **argv)
 {
 	int z;
 
@@ -21,6 +21,7 @@ int main(int argc, char const **argv)
 		printf("Error\n");
 		return (1);
 	}
+
 	return (0);
 }
 
