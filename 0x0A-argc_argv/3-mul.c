@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 
 	if (argc == 3)
 	{
-		z = _atoi(rgv[1]) * _atoi(argv[2]);
+		z = _atoi(argv[1]) * _atoi(argv[2]);
 		printf("%d\n", z);
 	}
 	else
