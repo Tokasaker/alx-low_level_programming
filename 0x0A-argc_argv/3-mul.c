@@ -7,7 +7,7 @@
  * Return: 0-success, non-zero-faili
  */
 
-int main(int argc, atoi(char *argv[]))
+int main(int argc, int atoi(char *argv[]))
 {
 	int z;
 
