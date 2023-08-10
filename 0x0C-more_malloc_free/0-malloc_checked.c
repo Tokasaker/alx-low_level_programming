@@ -5,7 +5,7 @@
  *
  * @b: the zize of pointer
  *
- * Return: Always 0.
+ * Return: check if the pointer of the array is zero or not.
  */
 
 void *malloc_checked(unsigned int b)
