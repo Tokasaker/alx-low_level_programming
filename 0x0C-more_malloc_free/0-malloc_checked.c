@@ -1,10 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <limits.h>
 
 /**
- * *malloc_checked - check the code
+ * *malloc_checked - using malloc to allocate memory
+ *
  * @b: the zize of pointer
  *
  * Return: Always 0.
