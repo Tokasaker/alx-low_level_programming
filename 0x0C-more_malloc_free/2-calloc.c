@@ -11,7 +11,7 @@
  * Return: check if the pointer of the array is zero or not.
  */
 
-char *calloc(char *j, char x, unsigned int y)
+void *_calloc2(char *j, char x, unsigned int y)
 {
 	char *o = j;
 
@@ -43,7 +43,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	if (h == 0)
 		return (0);
 
-	*calloc(h, 0, sizeof(int) * nmemb);
+	void *_calloc(h, (0), sizeof(int) * nmemb);
 
 	return (h);
 }
