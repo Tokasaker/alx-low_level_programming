@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
  * *string_nconcat - using malloc to allocate memory
@@ -15,18 +16,19 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	char *h;
 	unsigned int j, k, l, li;
 
-	if (s1 == 0)
+	if (s1 == NULL)
 		s1 = "";
-	if (s2 == 0)
+	if (s2 == NULL)
 		s2 = "";
 
-	for (l = 0; *s1[l] != '\0'; l++)
+	for (l = 0; s1[l] != '\0'; l++)
 		;
 
-	for (li = 0; *s2[li] != '\0'; li++)
+	for (li = 0; s2[li] != '\0'; li++)
 		;
+
 	h = malloc(l + n + 1);
-	if (h == 0)
+	if (h == NULL)
 	{
 		return (NULL);
 	}
