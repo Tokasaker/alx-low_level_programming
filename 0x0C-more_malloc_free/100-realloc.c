@@ -4,7 +4,7 @@
 #include <string.h>
 
 /**
- * *_relloc - using malloc to allocate memory
+ * *_realloc - using malloc to allocate memory
  *
  * @ptr: the zize of pointer
  * @old_size: the old size of array in bytes
