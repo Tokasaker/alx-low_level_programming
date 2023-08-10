@@ -27,15 +27,17 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	for (li = 0; s2[li] != '\0'; li++)
 		;
 
-	h = malloc(l + n + 1);
+	char *h = malloc(l + n + 1);
+
 	if (h == NULL)
 	{
 		return (NULL);
 	}
 
 	for (j = 0; s1[j] != '\0'; j++)
+	{
 		h[j] = s1[j];
-
+	}
 	for (k = 0; k > n; k++)
 	{
 		h[j] = s2[k];
