@@ -12,7 +12,7 @@
 char *_strdup(char *str)
 {
 	int x = 0, z = 0;
-	char *i = malloc(z * sizeof(*str) + 1);
+	char *i = malloc(sizeof(*str) + 1);
 
 	if (str == 0)
 		return (0);
@@ -27,6 +27,7 @@ char *_strdup(char *str)
 	{
 		for (; x < z; x++)
 			i[x] = str[x];
+
 	}
 	return (i);
 }
