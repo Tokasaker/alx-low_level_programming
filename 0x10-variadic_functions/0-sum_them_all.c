@@ -20,7 +20,7 @@ int sum_them_all(const unsigned int n, ...)
 	else
 	{
 		va_start(lis, n);
-		for (int counter = 0; counter < n; counter++)
+		for (int counter = 0; counter < n - 1; counter++)
 			summation += va_arg(lis, int);
 		va_end(lis);
 		return (summation);
