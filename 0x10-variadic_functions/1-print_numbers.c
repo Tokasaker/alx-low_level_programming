@@ -13,7 +13,7 @@
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list lis;
-	int counter;
+	int counter = n;
 
 	if (n == 0)
 	{
@@ -21,7 +21,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		return;
 	}
 	va_start(lis, n);
-	for (counter = 0; counter < n; counter++)
+	while (counter--)
 		printf("%d%s", va_arg(lis, int),
 				counter ? (separator ? separator : "") : "\n");
 	va_end(lis);
