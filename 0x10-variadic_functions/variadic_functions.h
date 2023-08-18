@@ -4,6 +4,17 @@
 #include <stdio.h>
 #include <stdarg.h>
 
+/**
+ * struct mtypes - check the code
+ *
+ * Return: Always 0.
+ */
+typedef struct mtypes
+{
+	char *mtypes
+		void (*f)(char *, va_list);
+} mtypes_y;
+
 int sum_them_all(const unsigned int n, ...);
 void print_numbers(const char *separator, const unsigned int n, ...);
 void print_strings(const char *separator, const unsigned int n, ...);
