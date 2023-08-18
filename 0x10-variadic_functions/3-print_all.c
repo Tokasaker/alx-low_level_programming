@@ -9,8 +9,8 @@
  */
 
 void format_int(char *separator, va_list lis)
-{       
-printf("&s&d", separator, va_arg(lis, int))
+{
+printf("%s%d", separator, va_arg(lis, int));
 }
 
 /**
@@ -24,7 +24,7 @@ printf("&s&d", separator, va_arg(lis, int))
 
 void format_float(char *separator, va_list lis)
 {
-printf("&s&f", separator, va_arg(lis, double))
+printf("%s%f", separator, va_arg(lis, double));
 }
 
 /**
@@ -38,7 +38,7 @@ printf("&s&f", separator, va_arg(lis, double))
 
 void format_char(char *separator, va_list lis)
 {
-printf("&s&c", separator, va_arg(lis, int))
+printf("%s%c", separator, va_arg(lis, int));
 }
 
 /**
@@ -52,7 +52,7 @@ printf("&s&c", separator, va_arg(lis, int))
 
 void format_string(char *separator, va_list lis)
 {
-char *ptr = va_arg(lis, char *)
+char *ptr = va_arg(lis, char *);
 
 switch ((int)(!ptr))
 	case 1:
@@ -88,9 +88,9 @@ void print_all(const char * const format, ...)
 	while (format && format[counter])
 	{
 		h = 0;
-		while (mtypesf[h].mtype)
+		while (mtypesf[h].mtypes)
 		{
-			if (format[counter] == mtypesf[h].mtype[0])
+			if (format[counter] == mtypesf[h].mtypes[0])
 			{
 				mtypesf[h].f(separator, lis);
 				separator = ",";

@@ -11,8 +11,8 @@
  */
 typedef struct mtypes
 {
-	char *mtypes
-		void (*f)(char *, va_list);
+	char *mtypes;
+	void (*f)(char *, va_list);
 } mtypes_y;
 
 int sum_them_all(const unsigned int n, ...);
