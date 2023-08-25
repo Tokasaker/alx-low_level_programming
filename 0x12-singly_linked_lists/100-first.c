@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+void yoube(void)__attribute__((constructor));
+
 /**
  * yoube - check the code
  *
