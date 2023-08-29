@@ -4,14 +4,14 @@
  * pop_listint - check the code
  * @head: the pointer
  *
- * Return: void.
+ * Return: popped nide.
  */
 int pop_listint(listint_t **head)
 {
 	listint_t *nlast;
 	int el;
 
-	if (!head || !nlast)
+	if (!head || !*head)
 		return (0);
 
 	nlast = (*head)->next;
