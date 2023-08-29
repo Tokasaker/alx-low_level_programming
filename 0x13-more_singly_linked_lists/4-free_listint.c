@@ -2,7 +2,6 @@
 
 /**
  * free_listint - check the code
- *
  * @head: the pointer
  *
  * Return: void.
@@ -10,13 +9,13 @@
 
 void free_listint(listint_t *head)
 {
-	listint_t *nlast;
+	listint_t *node;
 
 	while (head)
 	{
-		nlast = head;
+		node = head;
 		head = head->next;
-		free(nlast);
+		free(node);
 	}
 }
 
