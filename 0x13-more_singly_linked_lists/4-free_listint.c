@@ -5,7 +5,7 @@
  *
  * @head: the pointer
  *
- * Return: Always 0.
+ * Return: void.
  */
 
 void free_listint(listint_t *head)
